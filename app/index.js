@@ -6,7 +6,7 @@ import foo from './foo'
 
 function component() {
     let element = j('<div></div>');
-    element.html(_.join(['Hello', 'XX']), '');
+    element.html(_.join(['Hello', 'xiexuan123']), '');
     return element.get(0);
 
 }
