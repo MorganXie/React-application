@@ -1,10 +1,12 @@
-import _ from 'lodash';
+import _ from 'lodash'
 
-function component () {
-    let element = document.createElement('div');
-    element.innerHTML = _.join(['Hello','xiexuan'], ' ');
+import j from 'jquery'
 
-    return element;
+function component() {
+    let element = j('<div></div>');
+    element.html(_.join(['Hello', 'XX']), '');
+    return element.get(0);
+
 }
 
 document.body.appendChild(component());
