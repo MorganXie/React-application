@@ -2,6 +2,8 @@ import _ from 'lodash'
 
 import j from 'jquery'
 
+import foo from './foo'
+
 function component() {
     let element = j('<div></div>');
     element.html(_.join(['Hello', 'XX']), '');
@@ -10,3 +12,6 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+
+console.log(foo());
