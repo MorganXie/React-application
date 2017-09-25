@@ -6,6 +6,10 @@ import TodoItem from './TodoItem'
 import 'normalize.css'
 import './reset.css'
 import * as localStore from './localStore'
+import AV from 'leancloud-storage'
+
+
+
 
 class App extends Component {
     constructor(props) {
